@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="admin\vendor\mockery\mockery\docs\cookbook\map.rst.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="admin\vendor\mockery\mockery\docs\getting_started\map.rst.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="admin\vendor\mockery\mockery\docs\mockery\map.rst.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="admin\vendor\mockery\mockery\docs\reference\map.rst.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="admin\vendor\phpunit\phpunit\tests\end-to-end\regression\github\2158\constant.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="admin\vendor\sebastian\diff\tests\fixtures\serialized_diff.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="admin\public\errorfiles\400.html" />
+    <None Include="admin\public\errorfiles\401.html" />
+    <None Include="admin\public\errorfiles\403.html" />
+    <None Include="admin\public\errorfiles\404.html" />
+    <None Include="admin\public\errorfiles\429.html" />
+    <None Include="admin\public\errorfiles\500.html" />
+    <None Include="admin\public\errorfiles\502.html" />
+    <None Include="admin\public\errorfiles\503.html" />
+    <None Include="admin\public\errorfiles\504.html" />
+    <None Include="admin\public\errorfiles\510.html" />
+    <None Include="admin\vendor\facade\ignition\resources\compiled\index.html" />
+    <None Include="admin\vendor\phpoffice\phpspreadsheet\samples\templates\46readHtml.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforbankaccount\BankAccount.php.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforbankaccount\dashboard.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforbankaccount\index.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforclasswithanonymousfunction\dashboard.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforclasswithanonymousfunction\index.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforclasswithanonymousfunction\source_with_class_and_anonymous_function.php.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforfilewithignoredlines\dashboard.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforfilewithignoredlines\index.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforfilewithignoredlines\source_with_ignore.php.html" />
+    <None Include="admin\vendor\swiftmailer\swiftmailer\tests\acceptance.conf.php.default" />
+    <None Include="admin\vendor\swiftmailer\swiftmailer\tests\smoke.conf.php.default" />
+    <None Include="wap\index.html" />
+    <None Include="wap\errorfiles\400.html" />
+    <None Include="wap\errorfiles\401.html" />
+    <None Include="wap\errorfiles\403.html" />
+    <None Include="wap\errorfiles\404.html" />
+    <None Include="wap\errorfiles\429.html" />
+    <None Include="wap\errorfiles\500.html" />
+    <None Include="wap\errorfiles\502.html" />
+    <None Include="wap\errorfiles\503.html" />
+    <None Include="wap\errorfiles\504.html" />
+    <None Include="wap\errorfiles\510.html" />
+    <None Include="web\index.html" />
+    <None Include="web\errorfiles\400.html" />
+    <None Include="web\errorfiles\401.html" />
+    <None Include="web\errorfiles\403.html" />
+    <None Include="web\errorfiles\404.html" />
+    <None Include="web\errorfiles\429.html" />
+    <None Include="web\errorfiles\500.html" />
+    <None Include="web\errorfiles\502.html" />
+    <None Include="web\errorfiles\503.html" />
+    <None Include="web\errorfiles\504.html" />
+    <None Include="web\errorfiles\510.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="admin\vendor\phpunit\phpunit\phpunit.xsd">
+      <Filter>Header Files</Filter>
+    </Xsd>
+    <Xsd Include="admin\vendor\symfony\routing\loader\schema\routing\routing-1.0.xsd">
+      <Filter>Header Files</Filter>
+    </Xsd>
+    <Xsd Include="admin\vendor\symfony\translation\resources\schemas\xliff-core-1.2-strict.xsd">
+      <Filter>Header Files</Filter>
+    </Xsd>
+    <Xsd Include="admin\vendor\symfony\translation\resources\schemas\xliff-core-2.0.xsd">
+      <Filter>Header Files</Filter>
+    </Xsd>
+    <Xsd Include="admin\vendor\symfony\translation\resources\schemas\xml.xsd">
+      <Filter>Header Files</Filter>
+    </Xsd>
+  </ItemGroup>
+</Project>
