@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <ProjectGuid>{7F946B61-FA99-6D5C-BADF-7AD1A4413BD1}</ProjectGuid>
+    <Keyword>ManagedCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="admin\public\errorfiles\400.html" />
+    <None Include="admin\public\errorfiles\401.html" />
+    <None Include="admin\public\errorfiles\403.html" />
+    <None Include="admin\public\errorfiles\404.html" />
+    <None Include="admin\public\errorfiles\429.html" />
+    <None Include="admin\public\errorfiles\500.html" />
+    <None Include="admin\public\errorfiles\502.html" />
+    <None Include="admin\public\errorfiles\503.html" />
+    <None Include="admin\public\errorfiles\504.html" />
+    <None Include="admin\public\errorfiles\510.html" />
+    <None Include="admin\vendor\facade\ignition\resources\compiled\index.html" />
+    <None Include="admin\vendor\mockery\mockery\docs\cookbook\map.rst.inc" />
+    <None Include="admin\vendor\mockery\mockery\docs\getting_started\map.rst.inc" />
+    <None Include="admin\vendor\mockery\mockery\docs\mockery\map.rst.inc" />
+    <None Include="admin\vendor\mockery\mockery\docs\reference\map.rst.inc" />
+    <None Include="admin\vendor\phpoffice\phpspreadsheet\samples\templates\46readHtml.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforbankaccount\BankAccount.php.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforbankaccount\dashboard.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforbankaccount\index.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforclasswithanonymousfunction\dashboard.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforclasswithanonymousfunction\index.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforclasswithanonymousfunction\source_with_class_and_anonymous_function.php.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforfilewithignoredlines\dashboard.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforfilewithignoredlines\index.html" />
+    <None Include="admin\vendor\phpunit\php-code-coverage\tests\_files\report\html\coverageforfilewithignoredlines\source_with_ignore.php.html" />
+    <None Include="admin\vendor\phpunit\phpunit\tests\end-to-end\regression\github\2158\constant.inc" />
+    <None Include="admin\vendor\sebastian\diff\tests\fixtures\serialized_diff.bin" />
+    <None Include="admin\vendor\swiftmailer\swiftmailer\tests\acceptance.conf.php.default" />
+    <None Include="admin\vendor\swiftmailer\swiftmailer\tests\smoke.conf.php.default" />
+    <None Include="wap\errorfiles\400.html" />
+    <None Include="wap\errorfiles\401.html" />
+    <None Include="wap\errorfiles\403.html" />
+    <None Include="wap\errorfiles\404.html" />
+    <None Include="wap\errorfiles\429.html" />
+    <None Include="wap\errorfiles\500.html" />
+    <None Include="wap\errorfiles\502.html" />
+    <None Include="wap\errorfiles\503.html" />
+    <None Include="wap\errorfiles\504.html" />
+    <None Include="wap\errorfiles\510.html" />
+    <None Include="wap\index.html" />
+    <None Include="web\errorfiles\400.html" />
+    <None Include="web\errorfiles\401.html" />
+    <None Include="web\errorfiles\403.html" />
+    <None Include="web\errorfiles\404.html" />
+    <None Include="web\errorfiles\429.html" />
+    <None Include="web\errorfiles\500.html" />
+    <None Include="web\errorfiles\502.html" />
+    <None Include="web\errorfiles\503.html" />
+    <None Include="web\errorfiles\504.html" />
+    <None Include="web\errorfiles\510.html" />
+    <None Include="web\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="admin\vendor\phpunit\phpunit\phpunit.xsd" />
+    <Xsd Include="admin\vendor\symfony\routing\loader\schema\routing\routing-1.0.xsd" />
+    <Xsd Include="admin\vendor\symfony\translation\resources\schemas\xliff-core-1.2-strict.xsd" />
+    <Xsd Include="admin\vendor\symfony\translation\resources\schemas\xliff-core-2.0.xsd" />
+    <Xsd Include="admin\vendor\symfony\translation\resources\schemas\xml.xsd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
